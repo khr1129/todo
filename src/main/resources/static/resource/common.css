@@ -1,0 +1,191 @@
+/* 노말라이즈 시작 */
+
+body, ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+/* 노말라이즈 끝 */
+
+
+/* 커스텀 시작 */
+
+.remove {
+	/* display: none; */
+	color: white;
+}
+
+.border-red {
+	border: 4px solid red;
+}
+
+.border-blue {
+	border: 4px solid blue;
+}
+
+.border-green {
+	border: 4px solid green;
+}
+
+.border-pink {
+	border: 4px solid pink;
+}
+
+.border-gold {
+	border: 4px solid gold;
+}
+
+.border-orange {
+	border: 4px solid orange;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.margin-top-40 {
+	margin-top: 40px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+.margin-top-60 {
+	margin-top: 60px;
+}
+
+.margin-top-70 {
+	margin-top: 70px;
+}
+
+.margin-top-80 {
+	margin-top: 80px;
+}
+
+.margin-top-90 {
+	margin-top: 90px;
+}
+
+.margin-top-100 {
+	margin-top: 100px;
+}
+
+
+.flex {
+	display: flex;
+}
+
+.flex-jc-c {
+	justify-content: center;
+}
+
+.flex-jc-sb {
+	justify-content: space-between;
+}
+
+.flex-ai-c {
+	align-items: center;
+}
+
+.height-100p {
+	height: 100%;
+}
+.con {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.con {
+	max-width: 800px;
+}
+
+/* 커스텀 끝 */
+
+/* 탑바 시작 */
+
+.top-bar {
+	text-align: center;
+	height: 100px;
+	border-bottom: 1px solid #afafaf;
+}
+
+.top-bar .menu-box-1 {
+	
+}
+
+.top-bar .menu-box-1 > ul {
+}
+
+.top-bar .menu-box-1 > ul > li {
+		
+}
+
+.top-bar .menu-box-1 > ul > li > a {
+	padding: 20px;
+}
+
+/* 탑바 끝 */
+
+
+/* form 관련 */
+
+form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px; 
+	border: 1px solid #afafaf;
+	padding: 20px;
+}
+
+
+form .form-control-box {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+form .form-control-box div {
+	width: 160px;
+	text-align: center;
+}
+
+form .form-control-box input {
+	height: 30px;
+	width: 500px;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+form .form-control-box textarea {
+	height: 400px;
+	width: 500px;
+	resize: none;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+form .btn-box {
+	text-align: center;
+}
+
+form .btn-box > button {
+	width: 100%;
+	height: 50px;
+	
+}

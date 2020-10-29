@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>${title}</title>
+
+<!-- 제이쿼리 불러오기 -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	
+<!-- 공통 CSS  -->
+<link rel="stylesheet" href="/resource/common.css" />
+
+<!-- 공통 JS  -->
+<link rel="stylesheet" href="/resource/common.js" />
+</head>
+<body>
+
+	<div class="top-bar">
+		<div class="con height-100p ">
+			<div class="menu-box-1 height-100p">
+				<ul class="flex flex-jc-c flex-ai-c height-100p">
+					<li><a href="../home/main">HOME</a></li>
+					<li><a href="../article/list">LIST</a></li>
+					<li><a href="../article/write">WRITE</a></li>
+					<li><a href="#">LOGIN</a></li>
+					<li><a href="#">LOGOUT</a></li>
+					<li><a href="#">JOIN</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>

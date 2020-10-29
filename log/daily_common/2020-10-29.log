@@ -1,0 +1,79 @@
+2020-10-29 23:29:40 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 18620 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-29 23:29:40 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-29 23:29:40 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-29 23:29:40 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-29 23:29:40 [WARN ] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.sbs.khr.todo]' package. Please check your configuration.
+2020-10-29 23:29:40 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-29 23:29:40 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-29 23:29:40 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-29 23:29:40 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-29 23:29:41 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-29 23:29:41 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-29 23:29:41 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 873 ms
+2020-10-29 23:29:41 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-29 23:29:41 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-29 23:29:41 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-29 23:29:41 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-29 23:29:41 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 1.641 seconds (JVM running for 2.818)
+2020-10-29 23:29:50 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-29 23:29:50 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-29 23:29:50 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-10-29 23:40:27 [INFO ] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2020-10-29 23:40:28 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-29 23:40:33 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-29 23:40:33 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-29 23:40:34 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-29 23:40:34 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-29 23:40:34 [WARN ] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.sbs.khr.todo]' package. Please check your configuration.
+2020-10-29 23:40:34 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-29 23:40:34 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-29 23:40:34 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-29 23:40:34 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-29 23:40:34 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-29 23:40:34 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-29 23:40:34 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 952 ms
+2020-10-29 23:40:35 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-29 23:40:35 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-29 23:40:35 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-29 23:40:35 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-29 23:40:35 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 1.642 seconds (JVM running for 2.793)
+2020-10-29 23:40:35 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-29 23:40:35 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-29 23:40:35 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-10-29 23:41:02 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-29 23:41:02 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-29 23:41:02 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-29 23:41:02 [WARN ] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.sbs.khr.todo]' package. Please check your configuration.
+2020-10-29 23:41:03 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-29 23:41:03 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-29 23:41:03 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-29 23:41:03 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-29 23:41:03 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-29 23:41:03 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-29 23:41:03 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 289 ms
+2020-10-29 23:41:03 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-29 23:41:03 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-29 23:41:03 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-29 23:41:03 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-29 23:41:03 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.443 seconds (JVM running for 30.616)
+2020-10-29 23:41:03 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-29 23:41:03 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-29 23:41:03 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-29 23:41:03 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-29 23:59:27 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-29 23:59:27 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-29 23:59:27 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-29 23:59:27 [WARN ] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.sbs.khr.todo]' package. Please check your configuration.
+2020-10-29 23:59:27 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-29 23:59:27 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-29 23:59:27 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-29 23:59:27 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-29 23:59:27 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-29 23:59:27 [INFO ] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-29 23:59:27 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 278 ms
+2020-10-29 23:59:27 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-29 23:59:27 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-29 23:59:27 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-29 23:59:27 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-29 23:59:27 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.417 seconds (JVM running for 1135.415)
+2020-10-29 23:59:27 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
