@@ -37,7 +37,6 @@
 </div>
 
 
-
 <style>
 .list-box .con {
 	text-align: center;
