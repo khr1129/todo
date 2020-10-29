@@ -6651,3 +6651,2193 @@ Caused by: org.apache.ibatis.builder.BuilderException: Wrong namespace. Expected
 |10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
 |---|--------------------|--------------------|------------|--------|
 
+2020-10-30 02:12:47 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:12:47 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2020-10-30 02:12:47 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2020-10-30 02:12:47 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:12:47 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:12:47 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:12:47 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:12:47 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:12:47 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:12:47 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:12:47 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:12:47 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 258 ms
+2020-10-30 02:12:47 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:12:47 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:12:47 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:12:47 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:12:47 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.404 seconds (JVM running for 9137.475)
+2020-10-30 02:12:47 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:13:19 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:13:19 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:13:19 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:13:19 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:13:19 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:13:19 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:13:19 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:13:19 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:13:19 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:13:19 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 343 ms
+2020-10-30 02:13:19 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:13:20 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:13:20 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:13:20 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:13:20 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.473 seconds (JVM running for 9169.535)
+2020-10-30 02:13:20 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:13:20 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:13:20 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:13:20 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-30 02:19:52 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:19:52 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:19:52 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:19:52 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:19:52 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:19:52 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:19:52 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:19:52 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:19:52 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:19:52 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 267 ms
+2020-10-30 02:19:52 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:19:52 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:19:52 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:19:52 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:19:52 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.401 seconds (JVM running for 9562.183)
+2020-10-30 02:19:52 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:19:52 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:19:52 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:19:52 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-10-30 02:20:00 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2020-10-30 02:20:00 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2020-10-30 02:20:00 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+101. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:20:00 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:20:04 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+101. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:20:04 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:20:05 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+101. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:20:05 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:20:38 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+101. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:20:38 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:20:41 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+101. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:20:41 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:20:44 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+101. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:20:44 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:20:48 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+101. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:20:48 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:21:16 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+101. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:21:16 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:22:08 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:22:08 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2020-10-30 02:22:08 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2020-10-30 02:22:08 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:22:08 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:22:09 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:22:09 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:22:09 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:22:09 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:22:09 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:22:09 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:22:09 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 259 ms
+2020-10-30 02:22:09 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:22:09 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:22:09 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:22:09 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:22:09 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:22:09 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:22:09 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-30 02:22:09 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.398 seconds (JVM running for 9698.856)
+2020-10-30 02:22:09 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:31:32 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:31:32 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:31:32 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:31:32 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:31:32 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:31:32 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:31:32 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:31:33 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:31:33 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:31:33 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 321 ms
+2020-10-30 02:31:33 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:31:33 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:31:33 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:31:33 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:31:33 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.539 seconds (JVM running for 10262.712)
+2020-10-30 02:31:33 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:31:58 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:31:58 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:31:58 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:31:59 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:31:59 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:31:59 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:31:59 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:31:59 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:31:59 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:31:59 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 252 ms
+2020-10-30 02:31:59 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:31:59 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:31:59 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:31:59 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:31:59 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.384 seconds (JVM running for 10288.699)
+2020-10-30 02:31:59 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:31:59 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:31:59 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:31:59 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-10-30 02:31:59 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2020-10-30 02:31:59 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2020-10-30 02:31:59 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+111. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:31:59 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:32:01 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+111. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:32:01 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:34:43 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:34:43 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2020-10-30 02:34:43 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2020-10-30 02:34:43 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:34:43 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:34:44 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:34:44 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:34:44 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:34:44 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:34:44 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:34:44 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:34:44 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 262 ms
+2020-10-30 02:34:44 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:34:44 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:34:44 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:34:44 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:34:44 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.39 seconds (JVM running for 10453.734)
+2020-10-30 02:34:44 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:34:44 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:34:44 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:34:44 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-10-30 02:34:44 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2020-10-30 02:34:44 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2020-10-30 02:34:44 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+121. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:34:44 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:34:44 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+121. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:34:44 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:35:01 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+121. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:35:01 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:35:05 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+121. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:35:05 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:36:12 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+121. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:36:12 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:36:12 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+121. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:36:12 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:36:13 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:36:13 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2020-10-30 02:36:13 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2020-10-30 02:36:13 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:36:13 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:36:13 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:36:13 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:36:13 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:36:13 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:36:13 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:36:13 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:36:13 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 288 ms
+2020-10-30 02:36:13 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:36:13 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:36:13 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:36:13 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:36:13 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.416 seconds (JVM running for 10543.449)
+2020-10-30 02:36:13 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:36:20 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:36:20 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:36:20 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-10-30 02:36:20 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+2020-10-30 02:36:20 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+2020-10-30 02:36:20 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+131. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:36:20 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:36:26 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+131. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:36:26 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:36:31 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+131. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:36:31 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:36:34 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+131. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:36:34 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:36:45 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+131. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:36:45 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:36:46 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:36:46 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+2020-10-30 02:36:46 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+2020-10-30 02:36:46 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:36:46 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:36:46 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:36:46 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:36:46 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:36:46 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:36:46 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:36:46 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:36:46 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 262 ms
+2020-10-30 02:36:46 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:36:46 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:36:46 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:36:46 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:36:46 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.389 seconds (JVM running for 10576.396)
+2020-10-30 02:36:46 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:38:23 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:38:23 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:38:23 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:38:23 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:38:23 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:38:23 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:38:23 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:38:23 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:38:23 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:38:23 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 255 ms
+2020-10-30 02:38:23 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:38:23 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:38:23 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:38:23 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:38:23 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.385 seconds (JVM running for 10673.448)
+2020-10-30 02:38:23 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:38:24 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:38:24 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:38:24 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-10-30 02:38:24 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+2020-10-30 02:38:24 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+2020-10-30 02:38:24 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+141. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:38:24 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:38:33 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+141. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:38:33 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:38:36 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+141. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:38:36 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:38:38 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+141. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:38:38 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:38:40 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+141. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:38:40 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:38:42 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+141. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:38:42 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:38:44 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+141. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:38:44 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:39:13 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+141. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:39:13 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:39:14 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:39:14 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
+2020-10-30 02:39:14 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
+2020-10-30 02:39:14 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:39:14 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:39:14 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:39:14 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:39:14 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:39:14 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:39:15 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:39:15 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:39:15 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 248 ms
+2020-10-30 02:39:15 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:39:15 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:39:15 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:39:15 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:39:15 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.392 seconds (JVM running for 10724.652)
+2020-10-30 02:39:15 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:39:25 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:39:25 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:39:25 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-30 02:39:25 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Starting...
+2020-10-30 02:39:25 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Start completed.
+2020-10-30 02:39:25 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+151. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:39:25 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:39:40 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:39:40 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown initiated...
+2020-10-30 02:39:40 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown completed.
+2020-10-30 02:39:40 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:39:40 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:39:40 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:39:40 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:39:40 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:39:40 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:39:40 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:39:40 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:39:40 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 248 ms
+2020-10-30 02:39:40 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:39:40 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:39:40 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:39:40 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:39:40 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.384 seconds (JVM running for 10750.506)
+2020-10-30 02:39:40 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:39:57 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:39:57 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:39:57 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-30 02:39:57 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Starting...
+2020-10-30 02:39:57 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Start completed.
+2020-10-30 02:39:57 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+161. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:39:57 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:39:59 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:39:59 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown initiated...
+2020-10-30 02:39:59 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown completed.
+2020-10-30 02:39:59 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:39:59 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:39:59 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:39:59 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:39:59 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:39:59 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:39:59 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:39:59 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:39:59 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 254 ms
+2020-10-30 02:39:59 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:39:59 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:39:59 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:39:59 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:39:59 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.38 seconds (JVM running for 10769.233)
+2020-10-30 02:39:59 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:40:01 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:40:01 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:40:01 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-30 02:40:01 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Starting...
+2020-10-30 02:40:01 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Start completed.
+2020-10-30 02:40:01 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+171. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:40:01 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:40:36 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+171. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:40:36 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:40:37 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+171. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:40:37 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:40:55 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:40:55 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown initiated...
+2020-10-30 02:40:55 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown completed.
+2020-10-30 02:40:55 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:40:55 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:40:55 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:40:55 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:40:55 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:40:55 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:40:55 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:40:55 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:40:55 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 273 ms
+2020-10-30 02:40:55 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:40:56 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:40:56 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:40:56 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:40:56 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.419 seconds (JVM running for 10825.567)
+2020-10-30 02:40:56 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:40:56 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:40:56 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:40:56 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-10-30 02:40:56 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Starting...
+2020-10-30 02:40:56 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Start completed.
+2020-10-30 02:40:56 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+181. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:40:56 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:40:58 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:40:58 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Shutdown initiated...
+2020-10-30 02:40:58 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Shutdown completed.
+2020-10-30 02:40:58 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:40:58 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local
+2020-10-30 02:40:58 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-30 02:40:58 [INFO ] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:40:58 [INFO ] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-30 02:40:58 [INFO ] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-30 02:40:58 [INFO ] org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-10-30 02:40:58 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-30 02:40:58 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 249 ms
+2020-10-30 02:40:58 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:40:58 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-10-30 02:40:58 [INFO ] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+2020-10-30 02:40:58 [INFO ] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+2020-10-30 02:40:58 [INFO ] com.sbs.khr.todo.TodoApplication - Started TodoApplication in 0.377 seconds (JVM running for 10827.987)
+2020-10-30 02:40:58 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-10-30 02:40:58 [INFO ] o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-30 02:40:58 [INFO ] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-30 02:40:58 [INFO ] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2020-10-30 02:40:58 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Starting...
+2020-10-30 02:40:58 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Start completed.
+2020-10-30 02:40:58 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:40:58 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:24 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:42:24 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:38 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:42:38 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:53 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:42:53 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:53 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:42:53 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:54 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:42:54 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:56 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:42:56 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:56 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:42:56 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:57 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:42:57 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:58 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:42:58 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:58 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:42:58 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:59 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:42:59 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:59 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:42:59 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:42:59 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:42:59 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:00 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:00 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:00 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:00 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:01 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:01 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:01 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:01 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:02 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:02 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:02 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:02 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:03 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:03 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:03 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:03 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:04 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:04 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:04 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:04 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:04 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:04 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:04 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:04 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:05 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:05 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:05 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:05 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:05 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:05 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:05 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:05 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:06 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:06 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:06 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:06 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:07 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:07 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:14 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:14 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:15 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:15 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:16 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:16 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:16 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:16 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:16 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:16 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:16 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:16 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:17 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:17 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:17 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:17 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:17 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:17 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:17 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:17 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:17 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:17 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:18 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:18 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:18 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:18 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:18 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:18 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:18 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:18 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:18 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:18 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:19 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:19 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:24 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:24 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:24 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:24 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:24 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 0 msec}
+2020-10-30 02:43:24 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:25 [DEBUG] jdbc.sqltiming -  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+191. SELECT *
+		FROM article;
+ {executed in 1 msec}
+2020-10-30 02:43:25 [INFO ] jdbc.resultsettable - 
+|---|--------------------|--------------------|------------|--------|
+|id |regdate             |updatedate          |word        |mean    |
+|---|--------------------|--------------------|------------|--------|
+|1  |2020-10-30 00:32:20 |2020-10-30 00:32:20 |description |기술, 서술  |
+|2  |2020-10-30 00:33:38 |2020-10-30 00:33:38 |description |기술, 서술  |
+|3  |2020-10-30 00:34:23 |2020-10-30 00:34:23 |apple       |사과
+    |
+|4  |2020-10-30 00:34:45 |2020-10-30 00:34:45 |ㄹㄹㄹ         |ㄹㄹㄹㄹ    |
+|5  |2020-10-30 00:34:58 |2020-10-30 00:34:58 |ㄹㄹ          |ㄹㄹㄹ     |
+|6  |2020-10-30 00:35:10 |2020-10-30 00:35:10 |22          |222     |
+|7  |2020-10-30 00:38:30 |2020-10-30 00:38:30 |ㄴㅇㄹ         |ㄴㅇㄹ     |
+|8  |2020-10-30 00:40:37 |2020-10-30 00:40:37 |hihi        |hihi    |
+|9  |2020-10-30 00:41:51 |2020-10-30 00:41:51 |ff          |fff     |
+|10 |2020-10-30 01:26:10 |2020-10-30 01:26:10 |테스트         |테스트     |
+|---|--------------------|--------------------|------------|--------|
+
+2020-10-30 02:43:47 [INFO ] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-30 02:43:47 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Shutdown initiated...
+2020-10-30 02:43:47 [INFO ] com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Shutdown completed.
+2020-10-30 02:43:47 [INFO ] com.sbs.khr.todo.TodoApplication - Starting TodoApplication on DESKTOP-EINLF0J with PID 22184 (C:\work\sts-4.7.0.RELEASE-workspace\todo\target\classes started by Hye Ryeon Kim in C:\work\sts-4.7.0.RELEASE-workspace\todo)
+2020-10-30 02:43:47 [INFO ] com.sbs.khr.todo.TodoApplication - The following profiles are active: local

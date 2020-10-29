@@ -1,7 +1,9 @@
 package com.sbs.khr.todo.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -43,12 +45,32 @@ public class ArticleController {
 		
 		List<Article> articles = articleService.getForPrintArticles();
 		
-		System.out.println("articles 는? : " + articles);
-		
 		model.addAttribute("articles", articles);
 		
-		
 		return "usr/article/list";
+	}
+	
+	@RequestMapping("/usr/article/test")
+	public String showTest(Model model) {
+		
+		List<Article> articles = articleService.getForPrintArticles();
+		
+		List<Article> randomArticles = new ArrayList<>();
+		
+		for ( Article article : articles ) {
+			for ( int i = 0; i < articles.size(); i++ ) {
+				int random = (int) (Math.random()*articles.size());
+				if ( random == i ) {
+					randomArticles.add(articles.get(i));
+				}
+			}
+		}
+		
+		
+		System.out.println("randomArticles :" + randomArticles);
+		model.addAttribute("articles", randomArticles);
+		
+		return "usr/article/test";
 	}
 	
 	
