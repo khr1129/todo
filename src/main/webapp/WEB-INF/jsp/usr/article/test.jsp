@@ -8,7 +8,7 @@
 
 <div class="list-box con2 ">
 	<div class="btn-box ">
-		<a href="../article/test" class="btn-rand">LIST RANDOM RESET</a>
+		<a href="../article/test" class="btn-rand">RANDOM LIST RESET</a>
 		<button class="btn-1">모두 보기</button>
 	</div>
 	<div class="list-box-content flex margin-top-40">
