@@ -8,6 +8,7 @@
 
 <div class="list-box con2 ">
 	<div class="btn-box ">
+		<a href="../article/test" class="btn-rand">LIST RANDOM RESET</a>
 		<button class="btn-1">모두 보기</button>
 	</div>
 	<div class="list-box-content flex margin-top-40">
@@ -45,6 +46,15 @@
 /* 리스트 박스 버튼 시작 */
 .list-box .btn-box {
 	text-align: right;
+}
+
+.list-box .btn-box  a{
+	margin-right: 80px;
+}
+
+.list-box .btn-box  a:hover {
+	text-decoration: underline;
+	font-weight: bold;
 }
 
 .list-box .btn-box button {

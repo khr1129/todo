@@ -9,7 +9,7 @@
 <form action="doWrite" class="form con margin-top-100" method="POST" onsubmit="writeFormSubmit(this); return false;">
 	<div class="form-control-box ">
 		<div >단어 또는 문장</div>
-		<input type="text"  name="word" placeholder="단어 또는 문장을 입력해주세요." autofocus="autofocus"/>
+		<input type="text"  style="ime-mode:disabled;" name="word" placeholder="단어 또는 문장을 입력해주세요." autofocus="autofocus"/>
 	</div>
 	<div class="form-control-box">
 		<div >의미</div>
@@ -20,7 +20,20 @@
 	</div>
 </form>
 
+
+<style>
+.form  .form-control-box input {
+	
+}
+
+.form  .form-control-box:nth-of-type(2) textarea {
+	ime-mode:active;
+}		
+</style>
+
 <script>
+
+
 
 
 var writeFormSubmitDone = false;
