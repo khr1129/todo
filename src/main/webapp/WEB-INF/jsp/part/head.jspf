@@ -27,9 +27,9 @@
 					<li><a href="../article/list">LIST</a></li>
 					<li><a href="../article/write">WRITE</a></li>
 					<li><a href="../article/test">TEST</a></li>
-					<!-- <li><a href="#">LOGIN</a></li>
+					<li><a href="#">LOGIN</a></li>
 					<li><a href="#">LOGOUT</a></li>
-					<li><a href="../member/join">JOIN</a></li> -->
+					<li><a href="../member/join">JOIN</a></li>
 				</ul>
 			</div>
 		</div>
