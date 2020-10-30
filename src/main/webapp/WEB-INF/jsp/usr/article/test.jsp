@@ -6,120 +6,107 @@
 
 
 
-<div class="list-box margin-top-60">
-	<div class="btn-box con ">
-		<button class="btn-1">모두보기</button>
+<div class="list-box con2 ">
+	<div class="btn-box ">
+		<button class="btn-1">모두 보기</button>
 	</div>
-	<div class="con flex flex-jc-sb margin-top-30">
+	<div class="list-box-content flex margin-top-40">
 		<div class="word-box ">
-			<div class="title ">
-				<a href="#" class="btn-2">단어 또는 문장</a>
-			</div>
-		</div>
-		<div class="mean-box  ">
-			<div class="title ">
-				<a href="#" class="btn-3">의미</a>
-			</div>
-		</div>
-		<div class="mean-box  ">
-			<div class="title ">
-				<a href="#" class="">정답</a>
-			</div>
-		</div>
-	</div>
-	<div class="con flex flex-jc-sb ">
-		<div class="content-box word">
+			<div class="word-box-title"><a href="#" class="btn-2">단어 또는 문장</a></div>
 			<c:forEach items="${articles}" var="article">
-				<div class="word">${article.word }</div>
+				<div class="word ">${article.word }</div>
 			</c:forEach>
 		</div>
-		<div class="content-box mean">
+		<div class="mean-box ">
+			<div class="mean-box-title"><a href="#" class="btn-3">의미</a></div>
 			<c:forEach items="${articles}" var="article">
 				<div class="mean">${article.mean }</div>
 			</c:forEach>
 		</div>
-		<div class="content-box ">
+		<div class="pass-box ">
+			<div class="pass-box-title"><a href="#" class="">정답</a></div>
 			<c:forEach items="${articles}" var="article">
-				<input type="text" />
+				<input type="text"  placeholder="입력해주세요." class="pass"/>
 			</c:forEach>
 		</div>
 	</div>
+
 </div>
 
 
 <style>
 
-.remove {
-	
+.con2 {
+	width: 1400px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.list-box .con {
-	text-align: center;
-}
-
+/* 리스트 박스 버튼 시작 */
 .list-box .btn-box {
 	text-align: right;
 }
 
 .list-box .btn-box button {
-	width: 100px;
 	height: 30px;
+	width: 100px;
 }
 
-.list-box .con .title {
-	font-weight: bold;
-	/* height: 30px; */
-}
-
-.list-box .con .word-box {
-	width: 50%;
-	border-bottom: 1px solid black;
-	height: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	box-sizing: border-box;
-}
-
-.list-box .con .mean-box {
-	width: 50%;
-	border-bottom: 1px solid black;
-	height: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	box-sizing: border-box;
-}
-
-.list-box .con .word-box:hover, .list-box .con .mean-box:hover {
-	text-decoration: underline;
-	cursor: pointer;
-}
-
-.list-box .con .content-box {
-	width: 50%;
-}
-
-.list-box .con .content-box input {
-	height: 35px;
+/* 리스트 박스 버튼 끝 */
+.list-box .list-box-content {
 	width: 100%;
 }
 
-.list-box .con .content-box .word {
-	padding: 5px; height : 30px;
-	border-bottom: 1px solid #afafaf;
+.list-box .list-box-content .word-box, .list-box .list-box-content .mean-box {
+	margin-right: 3%;
+}
+
+.list-box .list-box-content .word-box, .list-box .list-box-content .mean-box, 
+.list-box .list-box-content .pass-box {
+	width: 33%;
+	text-align: center;
+	
+}
+
+
+.list-box .list-box-content .word-box .word-box-title, .list-box .list-box-content .mean-box .mean-box-title,
+.list-box .list-box-content .pass-box .pass-box-title {
+	font-weight: bold;
+	border-bottom: 2px solid #afafaf;
+	font-size: 1.2rem;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+}
+
+.list-box .list-box-content .pass-box  input {
+	width: 100%;
 	height: 30px;
 }
 
-.list-box .con .content-box .mean {
-	padding: 5px;
-	height: 30px;
-	border-bottom: 1px solid #afafaf;
+.list-box .list-box-content .word-box .word-box-title:hover > a, 
+.list-box .list-box-content .mean-box .mean-box-title:hover > a {
+	text-decoration: underline;
+	padding: 10px 110px;
+}
+
+.list-box .list-box-content .word-box .word {
+	font-weight: bold;
+}
+
+.list-box .list-box-content .word-box .word, .list-box .list-box-content .mean-box .mean {
+	height: 37px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	
+	
 }
 </style>
 
 
 <script>
+
 	btnClicked(1);
 	btnClicked(2);
 	btnClicked(3);
@@ -155,6 +142,8 @@
 		}
 
 	};
+
+	
 </script>
 
 

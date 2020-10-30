@@ -4,9 +4,24 @@
 <c:set var="title" value="메인" />
 <%@ include file="../../part/head.jspf" %>
 
-<!-- <div class="main-box con">	
-	main
-</div> -->
+<div class="main-box con">
+	<div class="text">Start English</div>
+</div>
+
+
+<style>
+
+
+
+.main-box > .text {
+	font-weight: bold;
+	font-size: 4rem;
+	text-align: center;
+	margin-top: 160px;
+	opacity: 0.58;
+}
+
+</style>
 
 
 
