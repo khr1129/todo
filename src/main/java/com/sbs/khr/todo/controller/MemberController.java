@@ -33,4 +33,15 @@ public class MemberController {
 			
 		return "common/redirect";
 	}
+	
+	@RequestMapping("/usr/member/login")
+	public String showLogin() {
+		
+		return "usr/member/login";
+	}
+	
+	@RequestMapping("/usr/member/doLogin")
+	public String doLogin() {
+		return "";
+	}
 }
