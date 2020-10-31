@@ -4,7 +4,11 @@
 <c:set var="title" value="테스트" />
 <%@ include file="../../part/head.jspf"%>
 
-
+<script>
+function passCheck(article) {
+	alert(article.id);
+}
+</script>
 
 <div class="list-box con2 ">
 	<div class="btn-box ">
@@ -27,7 +31,7 @@
 		<div class="pass-box ">
 			<div class="pass-box-title"><a href="#" class="">정답</a></div>
 			<c:forEach items="${articles}" var="article">
-				<input type="text"  placeholder="입력해주세요." class="pass"/>
+				<input type="text"  placeholder="입력해주세요." class="pass" onclick='passCheck(${article.toJson()});' />
 			</c:forEach>
 		</div>
 	</div>
