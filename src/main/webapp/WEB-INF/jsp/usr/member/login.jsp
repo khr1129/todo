@@ -9,7 +9,7 @@
 	src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
 
 
-<form action="doLogin" class="form con margin-top-100" method="POST" onsubmit="loginFormSubmit(this); return false;">
+<form action="doLogin" class="form con " method="POST" onsubmit="loginFormSubmit(this); return false;">
 	<div class="form-control-box ">
 		<div >로그인 아이디</div>
 		<input type="text"  name="loginId" placeholder="로그인 아이디를 입력해주세요."/>
@@ -27,6 +27,10 @@
 
 
 <style>
+
+.form {
+	margin-top: 200px;
+}
 
 form .form-control-box input {
 	font-weight: normal;

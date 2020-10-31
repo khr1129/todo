@@ -67,6 +67,9 @@ function passCheck(article) {
 }
 
 /* 리스트 박스 버튼 끝 */
+.list-box {
+	margin-top: 120px;
+}
 .list-box .list-box-content {
 	width: 100%;
 }

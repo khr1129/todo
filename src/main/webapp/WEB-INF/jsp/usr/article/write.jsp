@@ -6,7 +6,7 @@
 
 
 
-<form action="doWrite" class="form con margin-top-100" method="POST" onsubmit="writeFormSubmit(this); return false;">
+<form action="doWrite" class="form con" method="POST" onsubmit="writeFormSubmit(this); return false;">
 	<div class="form-control-box ">
 		<div >단어 또는 문장</div>
 		<input type="text"  style="ime-mode:disabled;" name="word" placeholder="단어 또는 문장을 입력해주세요." autofocus="autofocus"/>
@@ -22,6 +22,9 @@
 
 
 <style>
+.form {
+	margin-top: 200px;
+}
 .form  .form-control-box input {
 	
 }
