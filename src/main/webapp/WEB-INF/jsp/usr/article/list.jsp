@@ -93,7 +93,6 @@
 			<c:forEach items="${articles}" var="article">
 				<c:set var="orginArticle" value="${article}" />
 				<div class="mean ">${article.mean }</div>
-
 			</c:forEach>
 		</div>
 	</div>
@@ -113,6 +112,10 @@
 }
 
 /* 리스트 박스 버튼 끝 */
+
+.list-box {
+	margin-bottom: 100px;
+}
 .list-box .list-box-content {
 	width: 100%;
 }
