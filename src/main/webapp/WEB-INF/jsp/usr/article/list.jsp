@@ -114,6 +114,7 @@
 /* 리스트 박스 버튼 끝 */
 
 .list-box {
+	margin-top: 120px;
 	margin-bottom: 100px;
 }
 .list-box .list-box-content {
